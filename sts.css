@@ -1,0 +1,85 @@
+header{
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    flex: 1;
+    text-align: center;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover {
+    background-color: #555;
+}
+/* Estilos para la lista de canciones */
+#tracklist {
+    margin-top: 20px;
+}
+
+#tracklist h2 {
+    margin-bottom: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+#tracklist ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tracklist li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+#tracklist li:nth-child(even) {
+    background-color: #f5f5f5;
+    padding: 5px;
+}
+
+/* Clear floats after the columns */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h2{
+    text-align: center;
+}
+.album-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+img{
+    max-width: 300px;
+    height: auto;
+}
+footer{
+    text-align: center;
+}
